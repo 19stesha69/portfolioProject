@@ -37,15 +37,15 @@ Programmer: Stesha Norstrom
             <h1 id="introText">Introductory Text</h1>
         </section>
 
-        <div class="section group">
+         <div class="section group">
             
                 
                 <article class="col span_1_of_2 span_2_of_2 article_placeholder">
-                    <h1>Article</h1>
+                    <h1>Image with link to sample of commercial website.</h1>
                 </article>
         
                 <article class="col span_1_of_2 span_2_of_2 article_placeholder">
-                    <h1>Article</h1>
+                    <h1>Image with sample of event website</h1>
                 </article>
                 
             
@@ -55,11 +55,11 @@ Programmer: Stesha Norstrom
             
                 
                 <article class="col span_1_of_2 span_2_of_2 article_placeholder">
-                    <h1>Article</h1>
+                    <h1>Image with link to sample of Custom WordPress theme. </h1>
                 </article>
                 
                 <article class="col span_1_of_2 span_2_of_2 article_placeholder">
-                    <h1>Article</h1>
+                    <h1>Embedded video file for animation created with Adobe Animate.</h1>
                 </article>
                 
             </div>
