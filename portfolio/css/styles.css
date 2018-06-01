@@ -1,0 +1,195 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: 'Rancho', cursive;
+    padding: 25px;
+}
+
+#introBlock {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    height: 400px;
+    width: auto;
+}
+
+.assetContainer {
+    border: 1px solid black;
+}
+
+.assetContainer h2 {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+.adobeContainer {
+    display:table;
+    vertical-align:middle;
+    text-align:center;
+    height:100%;
+    width:100%;
+}
+.adobeAnimate {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+/* CONTACT FORM */
+
+#contactForm {
+  width: auto;
+  padding: 10px 0 15px 0;
+  display: block;
+  text-align: center;    
+}
+#contactForm h1 {
+  font-weight: bold;
+  padding: 15px 0 20px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+#contactForm form {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+#contactForm form label {
+  font-size: 1.25em;
+  padding: 5px 10px 10px 5px;
+}
+#contactForm input[type=text],
+input[type=email],
+input[type=tel] {
+  width: 350px;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+#contactForm select {
+  padding: 10px;
+  width: 125px;
+}
+#contactForm input[type=submit] {
+  padding: 10px 25px;
+  border-radius: 12px;
+  width: 125px;
+}
+#contactForm textarea {
+  font-size: 1.25em;
+  width: 350px;
+  height: 150px;    
+}
+
+#btnContainer {
+  text-align: center;
+}
+
+#contactPageReturn {
+  height: 535px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 100px;
+  background-color: #cff8cc;
+}
+
+footer h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Tablet Style */
+@media screen and (min-width: 768px) {
+    
+  #introBlock {
+    height: 300px;      
+  }    
+    
+  .assetContainer h2 {
+    padding: 10px 0;
+  }     
+    
+    /*Form styling*/
+      
+  #contactForm {
+    height: 525px;
+  }   
+    
+  #contactForm form {
+    font-size: 1.25em;
+    line-height: 20px;
+    text-decoration: none;
+  }
+    
+  #contactForm form label {
+    padding: 0;    
+  }
+  #contactForm h1 {
+    padding: 30px;
+  }
+    
+  #contactForm input[type=text],
+    input[type=email],
+    input[type=tel] {
+    width: 400px;
+  }
+    
+  #contactForm textarea {
+    width: 400px;
+    }
+    
+  .col-40 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    }
+
+  .col-60 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+  }
+  .row {
+    padding: 0 20px;
+  } 
+    
+  #contactPageReturn {
+    height: 550px;
+  }
+}
+
+/*Desktop Styles*/
+@media screen and (min-width: 1024px) {
+    
+  header h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 45px;
+  }
+
+  #introBlock {
+    margin: 10px;
+    height: 250px;
+  }
+    
+  #introText {
+    padding: 100px 0 20px 0;
+  }
+    
+  #contactPageReturn {
+    height: 650px;
+  }
+}
