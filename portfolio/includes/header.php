@@ -21,7 +21,9 @@ echo '<header>
             <div class="menu-container">
             <ul id="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#commercialSite">Websites</a></li>
+                <li><a href="#commercialSite">Commercial</a></li>
+                <li><a href="#eventSite">Events</a></li>
+                <li><a href="#wordpressSite">Custom WordPress</a></li>
                 <li><a href="#myBtn">Contact</a></li>
             </ul>
             </div>
