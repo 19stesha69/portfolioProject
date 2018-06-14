@@ -18,15 +18,11 @@ echo '<header>
 				    </ul>
   			  </div>
         
-            <h1 id="subject">Stesha Norstrom Web Design</h1>
-        
             <div class="menu-container">
             <ul id="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#commercialSite">Commercial Website</a></li>
-                <li><a href="#eventSite">Events</a></li>
-                <li><a href="#wordpressSite">Customized WordPress Theme</a></li>
-                <li><a href="#adobeAsset">Animation</a></li>
+                <li><a href="#commercialSite">Websites</a></li>
+                <li><a href="#myBtn">Contact</a></li>
             </ul>
             </div>
         </nav>    

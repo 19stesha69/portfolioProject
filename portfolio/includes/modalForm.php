@@ -1,7 +1,7 @@
 <?php
 
 /*
-File Name: header.php
+File Name: modalForm.php
 Date: 5/30/18
 Programmer: Stesha Norstrom
 */

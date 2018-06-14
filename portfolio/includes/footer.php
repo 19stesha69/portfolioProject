@@ -8,7 +8,7 @@ Programmer: Stesha Norstrom
 
 echo '<footer class="footerContainer">
     
-        <h1>&copy;2018</h1>
+        <h1>&copy;2018 Stesha Norstrom</h1>
         
       </footer>';
 
