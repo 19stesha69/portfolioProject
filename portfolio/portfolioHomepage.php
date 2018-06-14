@@ -49,14 +49,14 @@ Programmer: Stesha Norstrom
                 
                 <article class="span_2_of_2 assetContainer" id="commercialSite">
                     <h2>Commercial Site</h2>
-                    <a href="http://steshanorstrom.com/commercialSite/millers.html">
+                    <a href="http://steshanorstrom.com/commercialSite/millers.html" target="_blank">
                         <img src="images/commercialSite.png" alt="Home page of a fictional diner.">
                     </a>
                 </article>
         
                 <article class="span_2_of_2 assetContainer" id="eventSite">
                     <h2>Event Site</h2>
-                    <a href="http://steshanorstrom.com/client/aceInTheHole_index.html.php">
+                    <a href="http://steshanorstrom.com/client/aceInTheHole_index.html.php" target="_blank">
                         <img src="images/eventSite.png" alt="Home page for a sporting event site.">
                     </a>
                 </article>
@@ -69,7 +69,7 @@ Programmer: Stesha Norstrom
                 
                 <article class="span_2_of_2 assetContainer" id="wordpressSite">
                     <h2>Customized WordPress Site</h2>
-                    <a href="http://steshanorstrom.com/student001/project/">
+                    <a href="http://steshanorstrom.com/student001/project/" target="_blank">
                         <img src="images/wordpressTheme.png" alt="Homepage of a customized WordPress theme.">
                     </a>
                 </article>
@@ -78,7 +78,7 @@ Programmer: Stesha Norstrom
                     <h2>Short film created using Adobe Animate (Flash required)</h2>
                     <div class="adobeContainer">
                         <div class="adobeAnimate">
-                            <a href="http://steshanorstrom.com/adobeAnimate/finalProject_ActionScript%203.html">
+                            <a href="http://steshanorstrom.com/adobeAnimate/finalProject_ActionScript%203.html" target="_blank">
                                 <img src="images/adobeAnimate.png" alt="Start page for a film made with Adobe Animate">
                             </a>
                         </div>
