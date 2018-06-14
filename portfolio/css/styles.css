@@ -206,5 +206,9 @@ footer h1 {
   #contactPageReturn {
     height: 900px;
   }
+    
+  .assetContainer h2 {
+    font-size: 3.5em;  
+  }
 
 }

@@ -12,8 +12,11 @@ Programmer: Stesha Norstrom
   padding: 0;
 }
 
-.nav {
-  background-color: rgb(248, 204, 207);
+header {
+  background-color: rgb(248, 204, 207);     
+}
+
+nav {
   width: 100%;
   z-index: 10;
 }
@@ -24,19 +27,21 @@ body ul li {
 
 #menu {
   display: none;
+  padding: 20px;
 }
+
 #menu li a {
   width: 100%;
   display: block;
   background-color: rgb(248, 204, 207);
   color: #000;
-  font-size: 1.0em;
-  padding: 1.5em 1.6em;
+  font-size: 1.5em;
   transition: background 0.2s;
   text-decoration: none;
   text-align: right;
   clear: right;
 }
+
 #menu a:hover {
   background-color: #ccf8f5;
 }
