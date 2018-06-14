@@ -48,12 +48,13 @@
 }
 
 .formSection h1 {
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .formModal {
     display: inline-flex;
     padding: 35px;
+    border-bottom: 1px black solid;
 }
 
 /* BUTTON */

@@ -2,27 +2,26 @@ body {
     font-family: 'Tajawal', sans-serif;
 }
 
-header h1 {
-    font-size: 2em;
-    font-family: 'Rancho', cursive;
-    padding: 25px;
+.hero {
+    width: 100%;
 }
 
 #introBlock {
-    font-size: 2em;
+    font-size: 1.25em;
     text-align: center;
-    padding: 10px;
-    height: 400px;
+    padding: 2em 1em;
+    height: 250px;
     width: auto;
 }
 
 .assetContainer {
-    border: 1px solid black;
+    margin: 50px 25px;
 }
 
 .assetContainer h2 {
     font-size: 1.75em;
     text-align: center;
+    font-weight: bold;
 }
 
 img {
@@ -98,6 +97,12 @@ input[type=tel] {
   height: 535px;
 }
 
+#contactPageReturn p {
+    text-align: center;
+    font-size: 1.75em;
+    padding: 1em;
+}
+
 /* FOOTER */
 
 footer {
@@ -115,8 +120,13 @@ footer h1 {
 @media screen and (min-width: 768px) {
     
   #introBlock {
-    height: 300px;      
+    height: 200px; 
+    font-size: 1.75em;
   }    
+    
+  .assetContainer {
+    margin: 75px 25px;
+}    
     
   .assetContainer h2 {
     padding: 10px 0;
@@ -169,6 +179,10 @@ footer h1 {
   #contactPageReturn {
     height: 550px;
   }
+    
+  #contactPageReturn p {
+    padding: 2em;      
+  }
 }
 
 /*Desktop Styles*/
@@ -190,6 +204,7 @@ footer h1 {
   }
     
   #contactPageReturn {
-    height: 650px;
+    height: 900px;
   }
+
 }

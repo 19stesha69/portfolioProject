@@ -12,15 +12,10 @@ Programmer: Stesha Norstrom
   padding: 0;
 }
 
-body {
-  font-family: 'Tajawal', sans-serif;
-  background-color: #fff;
-}
-
 .nav {
-    background-color: rgb(248, 204, 207);
-    width: 100%;
-    z-index: 10;
+  background-color: rgb(248, 204, 207);
+  width: 100%;
+  z-index: 10;
 }
 
 body ul li {
@@ -105,7 +100,7 @@ ul.hamburger li:nth-child(3) {
     }
     
      .nav {
-        height: 200px;
+        height: 100px;
     }
     
     .menu-container {
@@ -117,6 +112,7 @@ ul.hamburger li:nth-child(3) {
         display: inline-block;
         text-align: center;
         position: relative;
+        padding: 30px 0;
         
     }
     
@@ -126,7 +122,7 @@ ul.hamburger li:nth-child(3) {
   }
     
     ul#menu li a {
-        padding:10px;
+        padding: 10px;
         display: inline;
         font-size: 1.5em;  
         text-align: center;
