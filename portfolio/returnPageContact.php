@@ -16,8 +16,7 @@ Programmer: Stesha Norstrom
 <meta charset="UTF-8">
 <meta name="author" content="Stesha Norstrom">
     
-<link href="https://fonts.googleapis.com/css?family=Tajawal:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">      
+<link href="https://fonts.googleapis.com/css?family=Tajawal:400,700" rel="stylesheet">   
     
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/grid.css" rel="stylesheet" type="text/css">  
@@ -30,8 +29,6 @@ Programmer: Stesha Norstrom
 </head>    
     
 <body>
-    
-    <?php include "includes/header.php";?>    
 
 <main id="contactPageReturn">
 
@@ -58,7 +55,7 @@ Programmer: Stesha Norstrom
   $sql = "INSERT INTO `contact` (`name`, `email`, `phone`, `comments`) VALUES ('$users_name', '$users_email', '$users_phoneNumber', '$users_comments')";
     
   if ($conn->query($sql) === TRUE) {
-      echo "New record created successfully.";
+      echo "<p>New record created successfully.</p>";
   } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
   }    
@@ -108,7 +105,6 @@ Programmer: Stesha Norstrom
 <?php include "includes/footer.php";?>
     
     <script src="scripts/jquery.js"></script>
-    <script src="scripts/navigation.js"></script>
 
 </body>
 
